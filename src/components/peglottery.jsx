@@ -12,10 +12,10 @@ export const PegLottery = (props) => {
           <h3>BSC</h3>
         </div>
         <Fade right>
-          <div className="row">
+          <div className="row peg-cards">
             {props.data
               ? props.data.BSC.map((d, i) => (
-                  <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                  <div key={`${d.title}-${i}`} className="col-md-3 col-xs-6">
                     <div className="peg-card">
                       <Link to={d.link}>
                         <img src={d.bsc} className="emp" alt="emp" />
@@ -33,10 +33,10 @@ export const PegLottery = (props) => {
           <h3>FTM</h3>
         </div>
         <Fade left>
-          <div className="row">
+          <div className="row peg-cards">
             {props.data
               ? props.data.FTM.map((d, i) => (
-                  <div key={`${d.title}-${i}`} className="col-xs-6 col-md-3">
+                  <div key={`${d.title}-${i}`} className="col-md-3 col-xs-6">
                     <div className="peg-card">
                       <Link to={d.link}>
                         <img src={d.ftm} className="emp" alt="emp" />
