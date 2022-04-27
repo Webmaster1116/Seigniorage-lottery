@@ -195,7 +195,7 @@ p {
 }
 .intro .overlay {
   padding-top: 150px;
-  background: rgba(0, 0, 0, 0.2);
+  background: rgba(0, 0, 0, 0.5);
 }
 .intro h2 {
   font-family: "Raleway", sans-serif;
