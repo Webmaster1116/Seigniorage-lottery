@@ -1,0 +1,337 @@
+body,
+html {
+  font-family: "Open Sans", sans-serif;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  color: #fff;
+  font-weight: 400;
+  width: 100% !important;
+  height: 100% !important;
+}
+h2,
+h3,
+h4 {
+  font-family: "Raleway", sans-serif;
+}
+h2 {
+  text-transform: uppercase;
+  margin: 0 0 20px;
+  font-weight: 800;
+  font-size: 36px;
+  color: white;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: white;
+  margin: 0 !important;
+}
+p {
+  font-size: 15px;
+}
+p.intro {
+  margin: 12px 0 0;
+  line-height: 24px;
+}
+a {
+  color: #608dfd;
+  font-weight: 400;
+}
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: #608dfd;
+}
+ul,
+ol {
+  list-style: none;
+}
+ul,
+ol {
+  padding: 0;
+  webkit-padding: 0;
+  moz-padding: 0;
+}
+hr {
+  height: 2px;
+  width: 70px;
+  text-align: center;
+  position: relative;
+  background: #1e7a46;
+  margin-bottom: 20px;
+  border: 0;
+}
+/* Navigation */
+#menu {
+  padding: 15px;
+  transition: all 0.8s;
+}
+#menu.navbar-default {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-color: rgba(231, 231, 231, 01);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+}
+#menu a.navbar-brand {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  color: white;
+  text-transform: uppercase;
+}
+#menu.navbar-default .navbar-nav > li > a {
+  font-family: "Lato", sans-serif;
+  text-transform: uppercase;
+  color: white;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 8px 2px;
+  border-radius: 0;
+  margin: 9px 20px 0;
+}
+#menu.navbar-default .navbar-nav > li > a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  width: 0;
+  height: 2px;
+  background: linear-gradient(to right, #6372ff 0%, #5ca9fb 100%);
+  content: "";
+  transition: width 0.2s;
+}
+#menu.navbar-default .navbar-nav > li > a:hover:after {
+  width: 100%;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  background-color: transparent;
+}
+
+.navbar-toggle {
+  border-radius: 0;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #fff;
+  border-color: #608dfd;
+}
+
+.section-title {
+  margin-bottom: 4em;
+  margin-top: 3em;
+}
+.section-title h2 {
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}
+
+.section-title p {
+  font-size: 18px;
+}
+.btn-custom {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  background-color: #5ca9fb;
+  background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+  padding: 14px 34px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 25px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+.btn-custom:hover,
+.btn-custom:focus,
+.btn-custom.focus,
+.btn-custom:active,
+.btn-custom.active {
+  color: #fff;
+  background-image: none;
+  background-color: #6372ff;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+a:focus,
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: none;
+  outline-offset: none;
+}
+
+p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 0;
+}
+/* Header Section */
+.intro {
+  display: table;
+  width: 100%;
+  padding: 0;
+  background: url(../img/home_bg.png) center center no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+.intro .overlay {
+  padding-top: 150px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.intro h2 {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px !important;
+}
+
+.intro p {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 30px;
+  margin: 8px;
+}
+
+/* Features Section */
+#peglottery {
+  padding-top: 100px;
+  background: url(../img/peg_bg.png) center center no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.peg-title h3 {
+  margin: 1em !important;
+}
+
+.peg-card {
+  border: 1px solid #fff;
+  border-radius: 25px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin-bottom: 2em;
+}
+
+.emp-btn {
+  padding: 2px 10px !important;
+  margin: 0 !important;
+  margin-top: 1em !important;
+}
+.emp-btn h4 {
+  color: #fff;
+}
+
+#empmoney {
+  padding-top: 100px;
+  background: url(../img/emp_bg.png) center center no-repeat;
+  width: 100%;
+  min-height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#faq {
+  padding: 100px 20px;
+  background: url(../img/faq_bg.jpg) center center no-repeat;
+  width: 100%;
+  height: 100vh;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.accordion-header button {
+  background: none;
+  border: none;
+  font-size: 25px;
+  padding: 0;
+}
+
+.accordion-body {
+  font-size: 18px;
+  padding: 10px;
+}
+
+.emp {
+  width: 200px;
+}
+.emp2 {
+  margin-left: -25%;
+  margin-top: 20%;
+}
+
+@media (max-width: 500px) {
+  .emp {
+    width: 150px;
+  }
+}
+
+.content-border {
+  border-radius: 25px;
+  background-color: rgb(0, 0, 0, 0.2);
+  padding: 20px;
+  margin: 0 0 30px 0;
+  border: 1px solid white;
+}
+
+.content-height {
+  height: 295px;
+}
+
+/* .card-height {
+  height: 338px;
+} */
+.emp-img {
+  height: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-border {
+  border-radius: 10px;
+  background-color: rgb(0, 0, 0, 0.2);
+  padding: 20px;
+  border: 1px solid white;
+  margin: 0 0 20px 0;
+}
+
+.img-border {
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0, 0.1);
+  padding: 20px;
+  border: 1px solid white;
+  margin: 0 0 20px 0;
+}

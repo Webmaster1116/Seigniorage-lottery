@@ -1,0 +1,160 @@
+{
+  "Home": {
+    "title1": "Welcome to Seigniorage Club!",
+    "paragraph1": {
+      "line1": "The first protocol that helps other seigniorage protocols' pegging algorithm, by utilities with burning mechanism.",
+      "line2": "Please read the Home Page and FAQ before you play!",
+      "line3": "Also please join our discord for announcements, events and more!",
+      "line4": "Thank you for visiting Seigniorage Club. Have fun!"
+    },
+    "content": [
+      {
+        "title": "Peg Lottery",
+        "paragraph": {
+          "line1": "Win Ratio: 50% Fixed",
+          "line2": "Reward: 1.95x Ticket Price",
+          "line3": "Drawing Every Hour",
+          "line4": "Closed During Last 5 Minutes"
+        }
+      },
+      {
+        "title": "Allocation",
+        "paragraph": {
+          "line1": "97.5% Paid Out to Winners",
+          "line2": "1% Burnt",
+          "line3": "0.5% Reserved for Treasury",
+          "line4": "1% Reserved for Dev & Treasury"
+        }
+      },
+      {
+        "title": "How to Play",
+        "paragraph": {
+          "line1": "Click Peg Lottery' on Top",
+          "line2": "Choose the Token to Play",
+          "line3": "Deposit & Enter a Lottery",
+          "line4": "Wait < 1 Hour, That's it!"
+        }
+      }
+    ],
+    "title3": "How are the Winners Determined?",
+    "paragraph3": {
+      "title1": "For Binance Smart Chain",
+      "line1": "We use Random Function provided by Chainlink VRF.",
+      "line2": "Chainlink VRF (Verifiable Random Function) is a provably fair and verifiable random number generator (RNG) that enables smart contracts to access random values without compromising security or usability.",
+      "line3": "https://docs.chain.link/docs/chainlink-vrf/",
+      "title2": "For Fantom Opera & AVAX",
+      "line4": "However, Chainlink VRF currently does NOT support FTM Chain or AVAX Chain",
+      "line5": "We Provide Secret Random Seed, which is only revealed when winners are drawn",
+      "line6": "(This means that no one can exploit the system other than the owner)",
+      "line7": "+",
+      "line8": "When the Winners are drawn, the contract grabs prices of 12 different tokens, and factors them into the drawing",
+      "line9": "(This means that OWNERS cannot exploit the system, either)",
+      "line10": "We are planning to integrate Chainlink VRF to our raffle system for FTM Chain and AVAX Chain, as soon as Chainlink start supporting the chains. https://fantom.foundation/blog/fantom-collaborates-with-chainlink-to-integrate-chainlink-vrf/"
+    }
+  },
+
+  "PegLottery": {
+    "BSC": [
+      {
+        "bsc": "./img/EMP_Logo.gif",
+        "title": "EMP",
+        "link": "/emp"
+      },
+      {
+        "bsc": "./img/bomb.png",
+        "title": "Bomb",
+        "link": "/bomb"
+      },
+      {
+        "bsc": "./img/dibs.png",
+        "title": "Dibs",
+        "link": "/dibs"
+      }
+    ],
+    "FTM": [
+      {
+        "ftm": "./img/tomb.png",
+        "title": "Tomb",
+        "link": "/tomb"
+      },
+      {
+        "ftm": "./img/2omb.png",
+        "title": "2omb",
+        "link": "/2omb"
+      },
+      {
+        "ftm": "./img/based.png",
+        "title": "Based",
+        "link": "/based"
+      },
+      {
+        "ftm": "./img/pFTM.png",
+        "title": "pFTM",
+        "link": "/pFTM"
+      }
+    ]
+  },
+
+  "EMPMoney": [
+    {
+      "title1": "Ticket Price",
+      "title2": "20 EMP ",
+      "title3": "(Drop Down Menu)"
+    },
+    {
+      "title1": "Round 7",
+      "title2": "Time Left to Enter 56:49",
+      "title3": "Drawing in 52:49"
+    },
+    {
+      "title1": "Winners Get: 39 EMP",
+      "title2": "Win Chance: 50%",
+      "title3": "Players: 162"
+    }
+  ],
+
+  "Bomb": [
+    {
+      "title1": "Ticket Price",
+      "title2": "20 EMP ",
+      "title3": "(Drop Down Menu)"
+    },
+    {
+      "title1": "Round 7",
+      "title2": "Time Left to Enter 56:49",
+      "title3": "Drawing in 52:49"
+    },
+    {
+      "title1": "Winners Get: 39 EMP",
+      "title2": "Win Chance: 50%",
+      "title3": "Players: 162"
+    }
+  ],
+
+  "Faq": [
+    {
+      "question": "Q1. What is the reward?",
+      "answer": "If you win the lottery, you will receive 1.95x of your entry. For example, if you participated in 20 X Token Peg Lottery and won, you will see 39 X Tokens on the claim box on the left side. You can either withdraw or play another lottery."
+    },
+    {
+      "question": "Q2. How many winners are there per drawing?",
+      "answer": "50% of the entire participants will win. For example, if total of 100 people participated in the 20 X Token Peg Lottery, 50 of them will each receive 39 X Tokens."
+    },
+    {
+      "question": "Q3. Can I buy multiple ticket?",
+      "answer": "No, each wallet can only participate ONCE per the drawing. Lottery happens EVERY Hour. You will be able to participate during first 55 minutes of 60 minutes, and winners will be drawn during next 5 minutes."
+    },
+    {
+      "question": "Q4. Which chains do you support?",
+      "answer": "We are currently supporting AVAX, BSC and Fantom Opera. More chains will be supported in the future, and more Tokens will be supported in the future. Please stay tuned."
+    },
+    {
+      "question": "Q5. How are the winners determined?",
+      "answer": "There is an explanation on our Random Function in the Home Page. If you still have some more questions, please join our official discord and feel free to ask us or the community!"
+    },
+    {
+      "question": "Q6. What if there are single participant or odd number of participants?",
+      "answer": "If there is only one person participating, his tokens will be refunded (sent back) to the deposit window when drawing begins. When there are odd number of participants, one random person will be selected and get refunded to the deposit window with LITTLE extra(0.1% of Total Entries) when drawing begins."
+    }
+  ]
+}
