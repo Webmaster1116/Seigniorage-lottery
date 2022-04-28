@@ -5,6 +5,11 @@ import { Home } from "./components/home";
 import { PegLottery } from "./components/peglottery";
 import { EMPMoney } from "./components/empmoney";
 import { Bomb } from "./components/bomb";
+import { Dibs } from "./components/dibs";
+import { Tomb } from "./components/tomb";
+import { Eomb } from "./components/2omb";
+import { Based } from "./components/based";
+import { PFTM } from "./components/pFTM";
 import { Faq } from "./components/faq";
 
 import JsonData from "./data/data.json";
@@ -60,27 +65,27 @@ const App = () => {
         <Route
           exact
           path="/dibs"
-          element={<EMPMoney data={landingPageData.EMPMoney} />}
+          element={<Dibs data={landingPageData.Dibs} />}
         />
         <Route
           exact
           path="/tomb"
-          element={<EMPMoney data={landingPageData.EMPMoney} />}
+          element={<Tomb data={landingPageData.Tomb} />}
         />
         <Route
           exact
           path="/2omb"
-          element={<EMPMoney data={landingPageData.EMPMoney} />}
+          element={<Eomb data={landingPageData.Eomb} />}
         />
         <Route
           exact
           path="/based"
-          element={<EMPMoney data={landingPageData.EMPMoney} />}
+          element={<Based data={landingPageData.Based} />}
         />
         <Route
           exact
           path="/pFTM"
-          element={<EMPMoney data={landingPageData.EMPMoney} />}
+          element={<PFTM data={landingPageData.pFTM} />}
         />
         <Route exact path="/faq" element={<Faq data={landingPageData.Faq} />} />
       </Routes>

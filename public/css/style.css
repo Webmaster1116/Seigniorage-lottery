@@ -258,6 +258,52 @@ p {
 .emp-btn h4 {
   color: #fff;
 }
+.css-b62m3t-container {
+  margin-left: 1em;
+  margin-top: 1em;
+}
+#react-select-5-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-3-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-3-listbox div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-3-listbox div:hover {
+  background-color: rgb(0, 0, 0, 0.2) !important;
+}
+#react-select-5-listbox div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-5-listbox div:hover {
+  background-color: rgb(0, 0, 0, 0.2) !important;
+}
+div.css-2613qy-menu {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+.css-1s2u09g-control {
+  background-color: rgb(0, 0, 0, 0.2) !important;
+}
+.css-1pahdxg-control {
+  background-color: rgb(255, 255, 255, 0.1) !important;
+}
+.css-1pahdxg-control:hover {
+  background-color: rgb(255, 255, 255, 0.1) !important;
+  border: 1px solid #fff !important;
+}
+.css-qc6sy-singleValue {
+  color: #fff !important;
+}
+.css-qc6sy-singleValue:hover {
+  background-color: #000 !important;
+}
 
 #empmoney {
   padding-top: 100px;
@@ -268,6 +314,10 @@ p {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+#empmoney .col-md-4 .title-border {
+  height: 150px;
 }
 
 #faq {
@@ -299,6 +349,12 @@ p {
 .emp2 {
   margin-left: -25%;
   margin-top: 20%;
+}
+
+.select-group {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 @media (max-width: 500px) {

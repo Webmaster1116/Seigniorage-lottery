@@ -1,12 +1,12 @@
 import { Fade } from "react-reveal";
 
-export const Bomb = (props) => {
+export const PFTM = (props) => {
   return (
     <div id="empmoney" className="text-center">
       <div className="container">
         <div className="section-title">
           <div className="title-border">
-            <h2>Bomb Money</h2>
+            <h2>pFTM Money</h2>
           </div>
           <h3>BSC</h3>
         </div>
@@ -38,7 +38,7 @@ export const Bomb = (props) => {
             <div className="col-xs-12 col-md-6">
               <div className="content-border card-height">
                 <div className="emp-img">
-                  <img src="./img/2bombs.png" className="emp" alt="emp" />
+                  <img src="./img/2pftm.png" className="emp" alt="emp" />
                 </div>
                 <p>Last Entry: Win/Lose</p>
                 <p>You Won: 0/39EMP</p>
@@ -50,7 +50,7 @@ export const Bomb = (props) => {
             <div className="col-xs-12 col-md-6">
               <div className="content-border card-height">
                 <div className="emp-img">
-                  <img src="./img/bomb.png" className="emp" alt="emp" />
+                  <img src="./img/pFTM.png" className="emp" alt="emp" />
                 </div>
                 <p>20 EMP Entry Pool</p>
                 <p>[Enter Raffle]</p>

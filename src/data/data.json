@@ -98,6 +98,23 @@
   "EMPMoney": [
     {
       "title1": "Ticket Price",
+      "title2": "20 EMP "
+    },
+    {
+      "title1": "Round 7",
+      "title2": "Time Left to Enter 56:49",
+      "title3": "Drawing in 52:49"
+    },
+    {
+      "title1": "Winners Get: 39 EMP",
+      "title2": "Win Chance: 50%",
+      "title3": "Players: 162"
+    }
+  ],
+
+  "Bomb": [
+    {
+      "title1": "Ticket Price",
       "title2": "20 EMP ",
       "title3": "(Drop Down Menu)"
     },
@@ -113,7 +130,79 @@
     }
   ],
 
-  "Bomb": [
+  "Tomb": [
+    {
+      "title1": "Ticket Price",
+      "title2": "20 EMP ",
+      "title3": "(Drop Down Menu)"
+    },
+    {
+      "title1": "Round 7",
+      "title2": "Time Left to Enter 56:49",
+      "title3": "Drawing in 52:49"
+    },
+    {
+      "title1": "Winners Get: 39 EMP",
+      "title2": "Win Chance: 50%",
+      "title3": "Players: 162"
+    }
+  ],
+
+  "Eomb": [
+    {
+      "title1": "Ticket Price",
+      "title2": "20 EMP ",
+      "title3": "(Drop Down Menu)"
+    },
+    {
+      "title1": "Round 7",
+      "title2": "Time Left to Enter 56:49",
+      "title3": "Drawing in 52:49"
+    },
+    {
+      "title1": "Winners Get: 39 EMP",
+      "title2": "Win Chance: 50%",
+      "title3": "Players: 162"
+    }
+  ],
+
+  "Based": [
+    {
+      "title1": "Ticket Price",
+      "title2": "20 EMP ",
+      "title3": "(Drop Down Menu)"
+    },
+    {
+      "title1": "Round 7",
+      "title2": "Time Left to Enter 56:49",
+      "title3": "Drawing in 52:49"
+    },
+    {
+      "title1": "Winners Get: 39 EMP",
+      "title2": "Win Chance: 50%",
+      "title3": "Players: 162"
+    }
+  ],
+
+  "Dibs": [
+    {
+      "title1": "Ticket Price",
+      "title2": "20 EMP ",
+      "title3": "(Drop Down Menu)"
+    },
+    {
+      "title1": "Round 7",
+      "title2": "Time Left to Enter 56:49",
+      "title3": "Drawing in 52:49"
+    },
+    {
+      "title1": "Winners Get: 39 EMP",
+      "title2": "Win Chance: 50%",
+      "title3": "Players: 162"
+    }
+  ],
+
+  "pFTM": [
     {
       "title1": "Ticket Price",
       "title2": "20 EMP ",
