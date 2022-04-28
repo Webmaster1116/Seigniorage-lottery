@@ -310,6 +310,150 @@ p {
   border: 2px solid #2684ff;
 }
 
+#react-select-2-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-2-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-2-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-4-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-4-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-4-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-6-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-6-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-6-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-8-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-8-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-8-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-10-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-10-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-10-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-12-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-12-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-12-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-14-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-14-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-14-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-16-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-16-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-16-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-18-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-18-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-18-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-20-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-20-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-20-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-22-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-22-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-22-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
+#react-select-24-listbox {
+  color: #fff !important;
+  background-color: rgb(0, 0, 0, 0.5) !important;
+  border: 1px solid #fff !important;
+}
+#react-select-24-listbox div div {
+  background-color: rgb(0, 0, 0, 0.5) !important;
+}
+#react-select-24-listbox div div:hover {
+  border: 2px solid #2684ff;
+}
+
 #react-select-25-listbox {
   color: #fff !important;
   background-color: rgb(0, 0, 0, 0.5) !important;
