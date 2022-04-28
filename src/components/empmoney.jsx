@@ -21,7 +21,7 @@ const options1 = [
 
 const customStyles = {
   content: {
-    top: "50%",
+    top: "45%",
     left: "50%",
     right: "auto",
     bottom: "auto",
@@ -65,7 +65,7 @@ export const EMPMoney = () => {
 
   function afterOpenModal1() {
     // references are now sync'd and can be accessed.
-    subtitle.style.color = "#000";
+    subtitle.style.color = "#fff";
   }
 
   function closeModal1() {
@@ -124,10 +124,19 @@ export const EMPMoney = () => {
                 style={customStyles}
                 contentLabel="Deposit Modal"
               >
-                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Deposit Money</h2>
-                <button onClick={closeModal}>close</button>
-                <div>deposit</div>
-                <form></form>
+                <div className="modal-title">
+                  <h2 ref={(_subtitle) => (subtitle = _subtitle)}>
+                    Deposit EMP
+                  </h2>
+                </div>
+                <div className="emp-modal-content">
+                  <p>0.0000 EMP Available</p>
+                  <div class="inputWithButton">
+                    <input type="text" />
+                    <button>Max</button>
+                  </div>
+                </div>
+                <button className="confirm-btn">Confirm</button>
               </Modal>
             </div>
             <div>
@@ -141,12 +150,19 @@ export const EMPMoney = () => {
                 style={customStyles}
                 contentLabel="Deposit Modal"
               >
-                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>
-                  Hello, withdraw
-                </h2>
-                <button onClick={closeModal1}>close</button>
-                <div>withdraw</div>
-                <form></form>
+                <div className="modal-title">
+                  <h2 ref={(_subtitle) => (subtitle = _subtitle)}>
+                    Withdraw EMP
+                  </h2>
+                </div>
+                <div className="emp-modal-content">
+                  <p>0.0000 EMP Available</p>
+                  <div class="inputWithButton">
+                    <input type="text" />
+                    <button>Max</button>
+                  </div>
+                </div>
+                <button className="confirm-btn">Confirm</button>
               </Modal>
             </div>
           </div>
@@ -159,7 +175,7 @@ export const EMPMoney = () => {
                 <img src="./img/EMP_Logo.gif" className="emp emp2" alt="emp" />
               </div>
               <p>Last Entry: Win/Lose</p>
-              <p>You Won: 0/39EMP</p>
+              <p>You Won: 0/39 EMP</p>
               <p>0/39 EMP was Added to Your Deposit!</p>
             </div>
           </div>
