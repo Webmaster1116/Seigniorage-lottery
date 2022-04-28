@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Fade } from "react-reveal";
 import Select from "react-select";
+import Modal from "react-modal";
 
 const options = [
   { value: 10, label: "10 EMP" },
@@ -18,15 +19,59 @@ const options1 = [
   { value: 6, label: "Round 6" },
 ];
 
+const customStyles = {
+  content: {
+    top: "50%",
+    left: "50%",
+    right: "auto",
+    bottom: "auto",
+    marginRight: "-50%",
+    transform: "translate(-50%, -50%)",
+  },
+};
+
 export const EMPMoney = () => {
   const [selectedOption, setSelectedOption] = useState({
     value: 20,
     label: "20 EMP",
   });
+
   const [selectedOption1, setSelectedOption1] = useState({
     value: 3,
     label: "Round 3",
   });
+
+  let subtitle;
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+
+  const [modalIsOpen1, setIsOpen1] = React.useState(false);
+
+  function openModal() {
+    setIsOpen(true);
+  }
+
+  function afterOpenModal() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = "#fff";
+  }
+
+  function closeModal() {
+    setIsOpen(false);
+  }
+
+  function openModal1() {
+    setIsOpen1(true);
+  }
+
+  function afterOpenModal1() {
+    // references are now sync'd and can be accessed.
+    subtitle.style.color = "#000";
+  }
+
+  function closeModal1() {
+    setIsOpen1(false);
+  }
+
   return (
     <div id="empmoney" className="text-center">
       <div className="container">
@@ -66,8 +111,44 @@ export const EMPMoney = () => {
         </div>
 
         <div className="col-xs-12 col-md-12">
-          <div className="content-border">
-            <h3>Your Balance: 6002 EMP [Deposit] [Withdraw]</h3>
+          <div className="content-border modal-btns">
+            <h3>Your Balance: 6002 EMP</h3>
+            <div>
+              <button className="modal-btn" onClick={openModal}>
+                Deposit
+              </button>
+              <Modal
+                isOpen={modalIsOpen}
+                onAfterOpen={afterOpenModal}
+                onRequestClose={closeModal}
+                style={customStyles}
+                contentLabel="Deposit Modal"
+              >
+                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>Deposit Money</h2>
+                <button onClick={closeModal}>close</button>
+                <div>deposit</div>
+                <form></form>
+              </Modal>
+            </div>
+            <div>
+              <button className="modal-btn" onClick={openModal1}>
+                Withdraw
+              </button>
+              <Modal
+                isOpen={modalIsOpen1}
+                onAfterOpen={afterOpenModal1}
+                onRequestClose={closeModal1}
+                style={customStyles}
+                contentLabel="Deposit Modal"
+              >
+                <h2 ref={(_subtitle) => (subtitle = _subtitle)}>
+                  Hello, withdraw
+                </h2>
+                <button onClick={closeModal1}>close</button>
+                <div>withdraw</div>
+                <form></form>
+              </Modal>
+            </div>
           </div>
         </div>
         <Fade left>
