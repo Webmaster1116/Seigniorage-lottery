@@ -218,6 +218,10 @@ p {
   margin: 8px;
 }
 
+.home-card-img {
+  margin: 20px 0;
+}
+
 /* Features Section */
 #peglottery {
   padding-top: 100px;
@@ -789,7 +793,7 @@ div.css-2613qy-menu {
 }
 
 .content-height {
-  height: 250px;
+  height: 450px;
 }
 
 /* .card-height {

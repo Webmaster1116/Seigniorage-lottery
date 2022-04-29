@@ -10,6 +10,7 @@
     "content": [
       {
         "title": "Peg Lottery",
+        "img": "./img/1.png",
         "paragraph": {
           "line1": "Win Ratio: 50% Fixed",
           "line2": "Reward: 1.95x Ticket Price",
@@ -19,6 +20,7 @@
       },
       {
         "title": "Allocation",
+        "img": "./img/2.png",
         "paragraph": {
           "line1": "97.5% Paid Out to Winners",
           "line2": "1% Burnt",
@@ -28,6 +30,7 @@
       },
       {
         "title": "How to Play",
+        "img": "./img/3.png",
         "paragraph": {
           "line1": "Click Peg Lottery' on Top",
           "line2": "Choose the Token to Play",

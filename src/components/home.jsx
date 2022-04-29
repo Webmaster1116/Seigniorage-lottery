@@ -42,6 +42,13 @@ export const Home = (props) => {
                       >
                         <div className="content-border center content-height">
                           <h2>{props.data ? d.title : "Loading"}</h2>
+                          <div>
+                            <img
+                              src={props.data ? d.img : "Loading"}
+                              className="home-card-img"
+                              alt="tent"
+                            />
+                          </div>
                           <p>{props.data ? d.paragraph.line1 : "Loading"}</p>
                           <p>{props.data ? d.paragraph.line2 : "Loading"}</p>
                           <p>{props.data ? d.paragraph.line3 : "Loading"}</p>
