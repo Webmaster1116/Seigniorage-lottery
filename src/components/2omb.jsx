@@ -77,7 +77,7 @@ export const Eomb = () => {
       <div className="container">
         <div className="section-title">
           <div className="title-border">
-            <h2>2omb Money</h2>
+            <h2>2omb Finance</h2>
           </div>
           <h3>FTM</h3>
         </div>

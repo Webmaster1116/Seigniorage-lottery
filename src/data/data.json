@@ -78,14 +78,14 @@
         "link": "/tomb"
       },
       {
-        "ftm": "./img/2omb.png",
-        "title": "2omb",
-        "link": "/2omb"
-      },
-      {
         "ftm": "./img/based.png",
         "title": "Based",
         "link": "/based"
+      },
+      {
+        "ftm": "./img/2omb.png",
+        "title": "2omb",
+        "link": "/2omb"
       },
       {
         "ftm": "./img/pFTM.png",

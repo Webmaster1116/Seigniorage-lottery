@@ -77,7 +77,7 @@ export const Tomb = () => {
       <div className="container">
         <div className="section-title">
           <div className="title-border">
-            <h2>Tomb Money</h2>
+            <h2>Tomb Finance</h2>
           </div>
           <h3>FTM</h3>
         </div>

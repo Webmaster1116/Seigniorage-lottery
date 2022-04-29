@@ -77,7 +77,7 @@ export const PFTM = () => {
       <div className="container">
         <div className="section-title">
           <div className="title-border">
-            <h2>pFTM Money</h2>
+            <h2>Ripae Finance</h2>
           </div>
           <h3>FTM</h3>
         </div>

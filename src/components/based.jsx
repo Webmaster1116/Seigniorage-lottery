@@ -77,7 +77,7 @@ export const Based = () => {
       <div className="container">
         <div className="section-title">
           <div className="title-border">
-            <h2>Based Money</h2>
+            <h2>Based Finance</h2>
           </div>
           <h3>FTM</h3>
         </div>
