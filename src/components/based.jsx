@@ -171,7 +171,7 @@ export const Based = () => {
           <div className="col-xs-12 col-md-6">
             <div className="content-border card-height">
               <div className="emp-img">
-                <img src="./img/22omb.png" className="emp" alt="emp" />
+                <img src="./img/2based.png" className="emp" alt="emp" />
               </div>
               <p>Last Entry: Win/Lose</p>
               <p>You Won: 0/39 Based</p>
@@ -183,7 +183,7 @@ export const Based = () => {
           <div className="col-xs-12 col-md-6">
             <div className="content-border card-height">
               <div className="emp-img">
-                <img src="./img/2omb.png" className="emp" alt="emp" />
+                <img src="./img/based.png" className="emp" alt="emp" />
               </div>
               <p>20 Based Entry Pool</p>
               <p>[Enter Raffle]</p>
