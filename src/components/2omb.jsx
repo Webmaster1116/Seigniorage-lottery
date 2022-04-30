@@ -204,7 +204,9 @@ export const Eomb = () => {
                 <img src="./img/2omb.png" className="emp" alt="emp" />
               </div>
               <p>20 2omb Entry Pool</p>
-              <p>[Enter Raffle]</p>
+              <p>
+                <button className="raffle-btn">Enter Raffle</button>
+              </p>
               <p>(-20 2omb from Your Deposit)</p>
             </div>
           </div>

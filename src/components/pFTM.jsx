@@ -204,7 +204,9 @@ export const PFTM = () => {
                 <img src="./img/pFTM.png" className="emp" alt="emp" />
               </div>
               <p>20 pFTM Entry Pool</p>
-              <p>[Enter Raffle]</p>
+              <p>
+                <button className="raffle-btn">Enter Raffle</button>
+              </p>
               <p>(-20 pFTM from Your Deposit)</p>
             </div>
           </div>

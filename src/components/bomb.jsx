@@ -204,7 +204,9 @@ export const Bomb = () => {
                 <img src="./img/bomb.png" className="emp" alt="emp" />
               </div>
               <p>20 Bomb Entry Pool</p>
-              <p>[Enter Raffle]</p>
+              <p>
+                <button className="raffle-btn">Enter Raffle</button>
+              </p>
               <p>(-20 Bomb from Your Deposit)</p>
             </div>
           </div>

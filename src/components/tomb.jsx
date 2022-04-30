@@ -204,7 +204,9 @@ export const Tomb = () => {
                 <img src="./img/tomb.png" className="emp" alt="emp" />
               </div>
               <p>20 Tomb Entry Pool</p>
-              <p>[Enter Raffle]</p>
+              <p>
+                <button className="raffle-btn">Enter Raffle</button>
+              </p>
               <p>(-20 Tomb from Your Deposit)</p>
             </div>
           </div>

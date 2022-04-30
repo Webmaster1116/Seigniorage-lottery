@@ -205,7 +205,9 @@ export const EMPMoney = () => {
                 <img src="./img/EMP_Logo.gif" className="emp" alt="emp" />
               </div>
               <p>20 EMP Entry Pool</p>
-              <p>[Enter Raffle]</p>
+              <p>
+                <button className="raffle-btn">Enter Raffle</button>
+              </p>
               <p>(-20 EMP from Your Deposit)</p>
             </div>
           </div>

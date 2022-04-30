@@ -63,6 +63,9 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+button:hover {
+  border: 1px solid #2684ff;
+}
 /* Navigation */
 #menu {
   padding: 15px;
@@ -713,6 +716,16 @@ div.css-2613qy-menu {
   margin-bottom: 10px;
 }
 
+.raffle-btn {
+  color: #fff;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 5px 20px;
+}
+
 #empmoney {
   padding-top: 100px;
   background: url(../img/emp_bg.png) center center no-repeat;
@@ -758,7 +771,7 @@ div.css-2613qy-menu {
 }
 .emp2 {
   margin-left: -25%;
-  margin-top: 20%;
+  margin-top: 13% !important;
 }
 
 .select-group {
@@ -798,14 +811,19 @@ div.css-2613qy-menu {
   height: 450px;
 }
 
-/* .card-height {
-  height: 338px;
-} */
+.card-height {
+  height: 420px;
+}
+
 .emp-img {
-  height: 30%;
+  height: 70%;
   display: flex;
-  align-items: center;
+  align-items: start;
   justify-content: center;
+}
+
+.emp-img .emp {
+  margin-top: 25px;
 }
 
 .title-border {

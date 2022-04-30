@@ -204,7 +204,9 @@ export const Dibs = () => {
                 <img src="./img/dibs.png" className="emp" alt="emp" />
               </div>
               <p>20 Dibs Entry Pool</p>
-              <p>[Enter Raffle]</p>
+              <p>
+                <button className="raffle-btn">Enter Raffle</button>
+              </p>
               <p>(-20 Dibs from Your Deposit)</p>
             </div>
           </div>
