@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Calisto MT" !important;
   text-rendering: optimizeLegibility !important;
   -webkit-font-smoothing: antialiased !important;
   color: #fff;
@@ -27,9 +27,6 @@ h3 {
   font-weight: 600;
   color: white;
   margin: 0 !important;
-}
-p {
-  font-size: 15px;
 }
 p.intro {
   margin: 12px 0 0;
@@ -63,6 +60,7 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+
 button:hover {
   border: 1px solid #2684ff;
 }
@@ -183,7 +181,7 @@ a:focus,
 
 p {
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 300;
   line-height: 30px;
   margin: 0;
@@ -634,7 +632,7 @@ div.css-2613qy-menu {
   background-color: rgb(16 15 15 / 90%) !important;
   color: #fff;
   width: 70%;
-  height: 30%;
+  height: 300px;
   border-radius: 20px !important;
   padding: 2em 5em !important;
 }
@@ -659,7 +657,7 @@ div.css-2613qy-menu {
   top: 5px;
   background-color: transparent;
   color: #fff;
-  font-size: 20px;
+  font-size: 24px;
   border: none;
 }
 
@@ -678,6 +676,10 @@ div.css-2613qy-menu {
   padding: 10px 20px !important;
   border-radius: 5px;
   text-transform: capitalize;
+}
+
+.emp-modal-content {
+  margin-top: 15px;
 }
 
 .emp-modal-content p {
@@ -706,24 +708,27 @@ div.css-2613qy-menu {
 
 .modal-btn {
   color: #fff;
-  font-size: 20px;
-  background-color: rgb(0, 0, 0, 0.2);
-  border: 1px solid #fff;
-  border-radius: 10px;
-  padding: 5px 20px;
-  margin-left: 20px;
-  width: 120px;
-  margin-bottom: 10px;
-}
-
-.raffle-btn {
-  color: #fff;
-  font-size: 20px;
+  font-size: 24px;
+  font-family: "Raleway", sans-serif;
   font-weight: bold;
   background-color: rgb(0, 0, 0, 0.2);
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 5px 20px;
+  margin-left: 20px;
+  width: 150px;
+}
+
+.raffle-btn {
+  font-family: "Raleway", sans-serif;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  background-color: rgb(0, 0, 0, 0.2);
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin: 5px 0;
 }
 
 #empmoney {
@@ -741,6 +746,10 @@ div.css-2613qy-menu {
   height: 150px;
   display: grid;
   align-items: center;
+}
+
+#empmoney .col-md-4 .title-border1 {
+  height: 120px !important;
 }
 
 #faq {
@@ -778,25 +787,6 @@ div.css-2613qy-menu {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-@media (max-width: 500px) {
-  .emp {
-    width: 150px;
-  }
-  .modal-btns {
-    display: block;
-  }
-  #faq {
-    padding: 100px 20px;
-    background: url(../img/faq_bg.jpg) center center no-repeat;
-    width: 100%;
-    height: auto;
-    background-size: cover;
-  }
-  .ReactModal__Content {
-    width: 90%;
-  }
 }
 
 .content-border {
@@ -840,4 +830,30 @@ div.css-2613qy-menu {
   padding: 20px;
   border: 1px solid white;
   margin: 0 0 20px 0;
+}
+
+@media (max-width: 1366px) {
+}
+
+@media (max-width: 500px) {
+  .emp {
+    width: 150px;
+  }
+  .modal-btns {
+    display: block;
+  }
+  .modal-btn {
+    margin: 10px 0;
+  }
+  #faq {
+    padding: 100px 20px;
+    background: url(../img/faq_bg.jpg) center center no-repeat;
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .ReactModal__Content {
+    width: 90%;
+    height: 30%;
+  }
 }

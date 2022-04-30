@@ -109,19 +109,19 @@ export const Eomb = () => {
             </div>
           </div>
           <div className="col-xs-12 col-md-4">
-            <div className="title-border">
+            <div className="title-border title-border1">
               <p>Token to be Burnt</p>
               <p>126</p>
             </div>
           </div>
           <div className="col-xs-12 col-md-4">
-            <div className="title-border">
+            <div className="title-border title-border1">
               <p>Token Burnt Last Week</p>
               <p>1273</p>
             </div>
           </div>
           <div className="col-xs-12 col-md-4">
-            <div className="title-border">
+            <div className="title-border title-border1">
               <p>Token Burnt So Far</p>
               <p>37896</p>
             </div>
