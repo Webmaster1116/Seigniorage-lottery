@@ -108,6 +108,24 @@ export const Eomb = () => {
               <p>Players: 162</p>
             </div>
           </div>
+          <div className="col-xs-12 col-md-4">
+            <div className="title-border">
+              <p>Token to be Burnt</p>
+              <p>126</p>
+            </div>
+          </div>
+          <div className="col-xs-12 col-md-4">
+            <div className="title-border">
+              <p>Token Burnt Last Week</p>
+              <p>1273</p>
+            </div>
+          </div>
+          <div className="col-xs-12 col-md-4">
+            <div className="title-border">
+              <p>Token Burnt So Far</p>
+              <p>37896</p>
+            </div>
+          </div>
         </div>
 
         <div className="col-xs-12 col-md-12">

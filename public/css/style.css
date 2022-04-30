@@ -726,6 +726,8 @@ div.css-2613qy-menu {
 
 #empmoney .col-md-4 .title-border {
   height: 150px;
+  display: grid;
+  align-items: center;
 }
 
 #faq {
