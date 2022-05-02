@@ -2,25 +2,6 @@ import React, { Fragment } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import { Fade } from "react-reveal";
 
-// export const Faq = (props) => {
-//   return (
-//     <div id="faq">
-//       <div className="container">
-//         <div className="row">
-//           {props.data
-//             ? props.data.map((d, i) => (
-//                 <div key={`${i}`} className="title-border">
-//                   <h3>{d.question}</h3>
-//                   <p>{d.answer}</p>
-//                 </div>
-//               ))
-//             : "Loading..."}
-//         </div>
-//       </div>
-//     </div>
-//   );
-// };
-
 export const Faq = (props) => {
   return (
     <div id="faq">

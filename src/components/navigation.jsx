@@ -35,17 +35,6 @@ export const Navigation = (props) => {
             <li>
               <Link to="/MyWallet"> My Wallet</Link>
             </li>
-            {/* <li>
-              <a href="#team" className="page-scroll">
-                Dev fund
-              </a>
-            </li>
-            
-            <li>
-              <a href="#contact" className="page-scroll">
-                Faq
-              </a>
-            </li> */}
           </ul>
         </div>
       </div>
