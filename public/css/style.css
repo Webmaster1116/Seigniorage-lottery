@@ -763,16 +763,22 @@ div.css-2613qy-menu {
   -o-background-size: cover;
 }
 
+.accordion-item {
+  padding: 0px !important;
+}
+
 .accordion-header button {
   background: none;
   border: none;
   font-size: 25px;
-  padding: 0;
+  padding: 20px;
+  width: 100%;
+  text-align: start;
 }
 
 .accordion-body {
   font-size: 18px;
-  padding: 10px;
+  padding: 0 30px 10px;
 }
 
 .emp {
